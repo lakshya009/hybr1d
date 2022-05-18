@@ -14,9 +14,9 @@ In this project you can do all this:
 -> Sellers can GET a list of all orders they've received
 
 APIs
-
--> Auth APIs
 ```
+-> Auth APIs
+
 - POST /api/auth/register
   Register a user (accept username, email, password, type of user - buyer/seller)
 
