@@ -88,3 +88,4 @@ APIs
 
 
 ```
+To verify the token generated during login, in POSTMAN under Headers add key value pair-> token: Bearer <token>
