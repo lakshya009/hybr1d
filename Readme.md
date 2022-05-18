@@ -3,6 +3,8 @@ REST API for an e-commerce marketplace
 This project is built using Node.js and MongoDB as the database.
 Various other libraries like crypto-js, jsonwebtoken have also been used.
 
+You can run it on local host : https://localhost:3000/
+
 In this project you can do all this:
 -> Buyers and sellers can register and login to the system
 -> Sellers can build a catalog of items, with each item having a name and price
@@ -14,11 +16,11 @@ In this project you can do all this:
 APIs
 
 -> Auth APIs
-
+```
 - POST /api/auth/register
   Register a user (accept username, email, password, type of user - buyer/seller)
 
-```
+
     Input:
     {
     "username": "lakshya",
